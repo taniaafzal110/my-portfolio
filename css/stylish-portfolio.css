@@ -4,8 +4,8 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-stylish-portfolio/blob/master/LICENSE)
  */
 
-body,
-html {
+ body,
+ html {
   width: 100%;
   height: 100%;
 }
@@ -140,7 +140,7 @@ h6 {
 }
 
 .sidebar-nav li.sidebar-nav-item a {
-  display: block;
+  display: flex;
   text-decoration: none;
   color: #fff;
   padding: 15px;
@@ -374,4 +374,20 @@ a:hover, a:focus, a:active {
 
 .text-secondary {
   color: #ecb807 !important;
+}
+.text-center {
+  display: flex !important;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+}
+.center li{
+  border: 1px solid white;
+  border-radius: 12px;
+  margin: 6px;
+  font-size: 40px;
+  font-weight: bold;
+}
+.center ul{
+  list-style: none;
 }
